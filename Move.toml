@@ -1,0 +1,9 @@
+[package]
+name = "BVT"
+version = "0.0.1"
+
+[addresses]
+BVT = "0x6ed75636f618ef3cadabe8ba590c6c7f560346b28c84056725c1c5d94901f94b"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "main" }
